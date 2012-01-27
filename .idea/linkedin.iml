@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="hashie" version="1.2.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="multi_json" version="1.0.3" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="oauth" version="0.4.5" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.15, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/bundler-1.0.15)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] multi_json (v1.0.4, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/multi_json-1.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] hashie (v1.2.0, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/hashie-1.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] oauth (v0.4.5, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/oauth-0.4.5)" level="application" />
+  </component>
+</module>
+

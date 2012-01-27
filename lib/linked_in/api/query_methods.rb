@@ -34,6 +34,10 @@ module LinkedIn
             path +=":(#{fields.map{ |f| f.to_s.gsub("_","-") }.join(',')})"
           end
           headers = options[:headers] || {}
+          params_str = ""
+          params = options[:params] || {}
+          params.each { |key, value| params_str << "#{key}=#{value}&"}
+          path += ("?" + params_str.chop) unless (params_str == "")
           Mash.from_json(get(path, headers))
         end
 
