@@ -9,22 +9,18 @@ module LinkedIn
         post(path, defaults.merge(share).to_json, "Content-Type" => "application/json")
       end
 
-      # def share(options={})
-      #   path = "/people/~/shares"
-      #   defaults = { :visability => 'anyone' }
-      #   post(path, share_to_xml(defaults.merge(options)))
-      # end
-      #
       def update_comment(network_key, comment)
          path = "/people/~/network/updates/key=#{network_key}/update-comments"
-         post(path, {:update_comment => {:comment => comment}}.to_json)
+         comment_hash = {:update_comment => {:comment => comment}}
+         post(path, comment_hash.to_json, "Content-Type" => "application/json")
       end
 
       def update_like(network_key, liked)
          path = "/people/~/network/updates/key=#{network_key}/is-liked"
-         post(path, {:is_liked => liked}.to_json)
+         put(path, {:is_liked => liked}.to_json, "Content-Type" => "application/json")
       end
-      #
+
+
       # def update_network(message)
       #   path = "/people/~/person-activities"
       #   post(path, network_update_to_xml(message))

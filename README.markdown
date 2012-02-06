@@ -76,3 +76,8 @@ If you want to play with the LinkedIn api without using the gem, have a look at 
 ## Copyright
 
 Copyright (c) 2009-11 [Wynn Netherland](http://wynnnetherland.com). See LICENSE for details.
+
+## Changes by Magda Sikorska:
+* Accepting parameters for Network Updates GET call
+* Reading users' current share
+* Posting new comments and likes
