@@ -11,13 +11,13 @@ module LinkedIn
 
       def update_comment(network_key, comment)
          path = "/people/~/network/updates/key=#{network_key}/update-comments"
-         comment_hash = {:update_comment => {:comment => comment}}
+         comment_hash = {:comment => comment}
          post(path, comment_hash.to_json, "Content-Type" => "application/json")
       end
 
       def update_like(network_key, liked)
          path = "/people/~/network/updates/key=#{network_key}/is-liked"
-         put(path, {:is_liked => liked}.to_json, "Content-Type" => "application/json")
+         put(path, liked, "Content-Type" => "application/json")
       end
 
 

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161507cd-6422-42fd-b7be-fc93c322ab28" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.markdown" afterPath="$PROJECT_DIR$/README.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" afterPath="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" />
     </list>
     <ignored path="linkedin.iws" />
@@ -40,7 +38,7 @@
       <file leaf-file-name="update_methods.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="478" selection-end="478" vertical-scroll-proportion="0.2139738">
+            <state line="13" column="44" selection-start="442" selection-end="442" vertical-scroll-proportion="0.1812227">
               <folding />
             </state>
           </provider>
@@ -382,7 +380,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="478" selection-end="478" vertical-scroll-proportion="0.2139738">
+        <state line="13" column="44" selection-start="442" selection-end="442" vertical-scroll-proportion="0.1812227">
           <folding />
         </state>
       </provider>
