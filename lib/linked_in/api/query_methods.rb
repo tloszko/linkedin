@@ -24,7 +24,7 @@ module LinkedIn
       end
 
       def current_share(options = {})
-        path = "people/~:(current-share)"
+        path = "#{person_path(options)}/:(current-share)"
         simple_query(path, options)
       end
 
