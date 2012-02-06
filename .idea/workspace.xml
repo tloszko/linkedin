@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161507cd-6422-42fd-b7be-fc93c322ab28" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" afterPath="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" afterPath="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" />
     </list>
     <ignored path="linkedin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="update_methods.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="update_methods.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="24" column="39" selection-start="829" selection-end="829" vertical-scroll-proportion="0.47598255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query_methods.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query_methods.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/api/query_methods.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="39" selection-start="639" selection-end="639" vertical-scroll-proportion="0.5895197">
+            <state line="26" column="39" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,8 +72,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" />
         <option value="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" />
+        <option value="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" />
       </list>
     </option>
   </component>
@@ -356,14 +357,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/api/query_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="639" selection-end="639" vertical-scroll-proportion="0.5895197">
+        <state line="26" column="39" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="39" selection-start="829" selection-end="829" vertical-scroll-proportion="0.47598255">
           <folding />
         </state>
       </provider>

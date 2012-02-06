@@ -15,10 +15,15 @@ module LinkedIn
       #   post(path, share_to_xml(defaults.merge(options)))
       # end
       #
-      # def update_comment(network_key, comment)
-      #   path = "/people/~/network/updates/key=#{network_key}/update-comments"
-      #   post(path, comment_to_xml(comment))
-      # end
+      def update_comment(network_key, comment)
+         path = "/people/~/network/updates/key=#{network_key}/update-comments"
+         post(path, {:update_comment => {:comment => comment}}.to_json)
+      end
+
+      def update_like(network_key, liked)
+         path = "/people/~/network/updates/key=#{network_key}/is-liked"
+         post(path, {:is_liked => liked}.to_json)
+      end
       #
       # def update_network(message)
       #   path = "/people/~/person-activities"
