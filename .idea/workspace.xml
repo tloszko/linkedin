@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161507cd-6422-42fd-b7be-fc93c322ab28" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" afterPath="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" afterPath="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" />
     </list>
     <ignored path="linkedin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,37 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="query_methods.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="query_methods.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/api/query_methods.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="21" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_methods.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="442" selection-end="442" vertical-scroll-proportion="0.1812227">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/linked_in/helpers/request.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="12" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authorization.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/linked_in/helpers/authorization.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="10" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+            <state line="33" column="35" selection-start="887" selection-end="887" vertical-scroll-proportion="0.36511156">
               <folding />
             </state>
           </provider>
@@ -71,9 +44,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" />
         <option value="$PROJECT_DIR$/README.markdown" />
         <option value="$PROJECT_DIR$/lib/linked_in/api/update_methods.rb" />
+        <option value="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" />
       </list>
     </option>
   </component>
@@ -262,9 +235,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968234" sideWeight="0.6703297" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968234" sideWeight="0.7184066" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2815934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -359,21 +332,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/helpers/authorization.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="10" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/linked_in/api/query_methods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0">
+        <state line="32" column="10" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.4585153">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/helpers/request.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+        <state line="25" column="12" selection-start="578" selection-end="578" vertical-scroll-proportion="0.33258426">
           <folding />
         </state>
       </provider>
@@ -381,6 +347,13 @@
     <entry file="file://$PROJECT_DIR$/lib/linked_in/api/update_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="44" selection-start="442" selection-end="442" vertical-scroll-proportion="0.1812227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/linked_in/api/query_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="887" selection-end="887" vertical-scroll-proportion="0.36511156">
           <folding />
         </state>
       </provider>

@@ -28,6 +28,12 @@ module LinkedIn
         simple_query(path, options)
       end
 
+      def current_share_id(options = {})
+        path = "#{person_path(options)}/network/updates?scope=self&count=1"
+        q = simple_query(path)
+        q["all"].first["update_key"]
+      end
+
       private
 
         def simple_query(path, options={})
