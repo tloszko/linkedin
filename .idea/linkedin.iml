@@ -24,10 +24,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.15, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/bundler-1.0.15)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] multi_json (v1.0.4, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/multi_json-1.0.4)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] hashie (v1.2.0, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/hashie-1.2.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] oauth (v0.4.5, /home/lite/.rvm/gems/ruby-1.9.2-p180/gems/oauth-0.4.5)" level="application" />
   </component>
 </module>
 
