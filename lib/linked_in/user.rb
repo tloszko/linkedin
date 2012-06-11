@@ -1,6 +1,6 @@
 module LinkedIn
   class User < LinkedIn::Base
-    lazy_attr_reader :headline, :id, :name, :profile_image, :profile_url
+    lazy_attr_reader :headline, :id, :first_name, :last_name, :name, :profile_image, :profile_url
 
 
     #@return [LinkedIn::User]
