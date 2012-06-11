@@ -35,6 +35,11 @@ module LinkedIn
       @liked ||= @attrs["is_liked"] unless @attrs["is_liked"].nil?
     end
 
+    #@return Time
+    def posted_at
+      @posted_at ||= Time.at(@attrs["timestamp"]/1000) unless @attrs["timestamp"].nil?
+    end
+
     # @return [Symbol]
     def post_type
       #@post_type ||= @attrs["update_type"].downcase.to_sym unless @attrs["update_type"].nil?
