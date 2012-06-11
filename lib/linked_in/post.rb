@@ -22,7 +22,7 @@ module LinkedIn
 
     # @return [LinkedIn::Comments]
     def comments
-      @comments ||= @attrs["update_comments"].nil? ? [] : @attrs["update_comments"]["all"].map{|comment| LinkedIn::Comment.new(comment)}
+      @comments ||= @attrs["update_comments"]["all"].nil? ? [] : @attrs["update_comments"]["all"].map{|comment| LinkedIn::Comment.new(comment)}
     end
 
     # @return [Boolean]
