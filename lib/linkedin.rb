@@ -29,4 +29,9 @@ module LinkedIn
   autoload :Helpers, "linked_in/helpers"
   autoload :Search,  "linked_in/search"
   autoload :Version, "linked_in/version"
+  autoload :Base,    "linked_in/base"
+  autoload :Post,    "linked_in/post"
+  autoload :Comment, "linked_in/comment"
+  autoload :User,    "linked_in/user"
+  autoload :Activity,"linked_in/activity"
 end

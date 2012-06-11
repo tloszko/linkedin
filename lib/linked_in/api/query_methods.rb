@@ -15,8 +15,10 @@ module LinkedIn
 
       def network_updates(options={})
         path = "#{person_path(options)}/network/updates"
-        puts path
-        simple_query(path, options)
+        raw_posts = simple_query(path, options)
+        raw_posts.fetch("all", []).map{|post|
+          LinkedIn::Post.new(post)
+        }
       end
 
       def connection_count(options={})
@@ -55,7 +57,6 @@ module LinkedIn
           params = options[:params] || {}
           params.each { |key, value| params_str << "#{key}=#{value}&"}
           path += ("?" + params_str.chop) unless (params_str == "")
-          puts path
           Mash.from_json(get(path, headers))
         end
 
